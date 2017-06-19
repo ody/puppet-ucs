@@ -1,4 +1,6 @@
-class ucs::docker::ucsddc{
+# This class should be completely removed and role assignment handled in the
+# PE node classifier.
+class docker_ee_cvd::docker::ucsddc{
 
     $role=$facts['hostname']
 
